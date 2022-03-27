@@ -1,6 +1,9 @@
 h1{
     padding: 20px;
 }
+#banner{
+    width: 100%;
+}
 #div-sobre{
     background-color: darkgray;
     text-align: center;
@@ -10,9 +13,18 @@ h1{
 #div-sobre q {
     color: red;
 }
-#banner{
-    width: 100%;
-}
 #banner-beneficio{
     width: 50%;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20%;
+}
+#div-beneficios h3{
+    text-align: center;
+}
+#div-beneficios{
+    display: inline;
+    padding: 10px;
 }
