@@ -1,0 +1,18 @@
+h1{
+    padding: 20px;
+}
+#div-sobre{
+    background-color: darkgray;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.2em;
+}
+#div-sobre q {
+    color: red;
+}
+#banner{
+    width: 100%;
+}
+#banner-beneficio{
+    width: 50%;
+}
