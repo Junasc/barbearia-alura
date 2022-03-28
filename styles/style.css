@@ -28,3 +28,12 @@ ul{
     display: inline;
     padding: 10px;
 }
+footer{
+    background: url("/midias/textura-rodape.jpg");
+    text-align: center;
+    padding: 30px 0;
+}
+.copyright{
+    color: white;
+    margin-top: 10px;
+}
