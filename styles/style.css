@@ -2,6 +2,9 @@ h1{
     padding: 15px;
     font-size: 2.5em;
 }
+header{
+    background-color: gray;
+}
 #banner{
     width: 100%;
 }
