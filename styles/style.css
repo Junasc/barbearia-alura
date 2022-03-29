@@ -22,14 +22,13 @@ h1{
 ul{
     display: inline-block;
     vertical-align: top;
-    margin-right: 20%;
+    margin-right: 15%;
 }
 #div-beneficios h3{
     text-align: center;
 }
 #div-beneficios{
     display: inline;
-    padding: 10px;
     font-size: 2em;
 }
 footer{

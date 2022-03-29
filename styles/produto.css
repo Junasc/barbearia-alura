@@ -1,0 +1,33 @@
+header{
+    background-color: gray;
+}
+main{
+    display: block ;
+    padding: 3%;
+    
+}
+.produtos{
+    display: inline-block;
+    width: 310px;
+    height: 400px;
+    background-color: white;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 3%;
+    border: 1px solid black;
+    text-align: center;
+
+}
+.descricao-produto{
+    font-size: 1.5em;
+}
+.produtos h2{
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 12px;
+}
+.produto-preco{
+    padding: 10px;
+    font-size: 1.9em;
+    font-weight: bolder;
+}
