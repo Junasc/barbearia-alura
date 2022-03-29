@@ -21,18 +21,27 @@ header{
 }
 #banner-beneficio{
     width: 50%;
-}
-ul{
     display: inline-block;
-    vertical-align: top;
-    margin-right: 15%;
 }
-#div-beneficios h3{
+
+#beneficios-h3 {
+    font-size: 2em;
     text-align: center;
+    padding-bottom: 3%;
+    font-weight: bold;
 }
 #div-beneficios{
-    display: inline;
+    display: flex;
+    flex-direction: row;
     font-size: 2em;
+    height: 400px;
+    width: 100%;
+    margin: 12px;
+}
+#beneficios-lista{
+    padding: 10%;
+    list-style: circle;
+
 }
 footer{
     background: url("/midias/textura-rodape.jpg");
