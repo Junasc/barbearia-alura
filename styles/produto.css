@@ -1,42 +1,9 @@
-header{
-    display: inline-block;
-    width: 100%;
-    background-color: gray; 
-}
-h1{
-    width: 200px;
-    padding-left: 10%;
-}
-nav{
-    display: inline-block;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    padding: 15px;
-}
-nav li {
-    display: inline;
-    padding: 5px;
-    font-size: 2em;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-nav a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-nav a:hover{
-    color: brown;
-    text-decoration: underline;
-}
-#menu :hover{
-    color:brown ;
-
-}
 main{
-    display: block ;
     padding: 3%;
-    
+}
+#ul-produtos{
+    text-align: center;
+    text-align: center;
 }
 .produtos{
     display: inline-block;
@@ -47,7 +14,6 @@ main{
     margin: 2%;
     border-radius: 3%;
     border: 1px solid black;
-    text-align: center;
 }
 .descricao-produto{
     font-size: 1.5em;
@@ -56,13 +22,10 @@ main{
     font-weight: bolder;
     font-size: 2em;
     padding: 12px;
+    text-align: center;
 }
 .produto-preco{
     padding: 10px;
     font-size: 1.9em;
     font-weight: bolder;
-}
-footer{
-    background: url("/midias/textura-rodape.jpg");
-    text-align: center;
 }
