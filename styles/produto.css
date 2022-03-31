@@ -3,7 +3,6 @@ main{
 }
 #ul-produtos{
     text-align: center;
-    text-align: center;
 }
 .produtos{
     display: inline-block;
@@ -28,4 +27,9 @@ main{
     padding: 10px;
     font-size: 1.9em;
     font-weight: bolder;
+}
+:hover.produtos{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
