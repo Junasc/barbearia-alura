@@ -1,7 +1,7 @@
 header{
     display: inline-block;
     width: 100%;
-    background-color: gray; 
+    background-image: linear-gradient(to top, rgb(54, 54, 54) , rgb(170, 170, 170));
 }
 h1{
     width: 200px;
@@ -27,12 +27,12 @@ nav a {
 nav a:hover{
     color: brown;
     text-decoration: underline;
+    transition: 0.5s;
 }
 #menu :hover{
-    color:brown ;
-
+    color:rgb(255, 255, 255);
+    transition: 0.5s;
 }
-
 footer{
     background: url("/midias/textura-rodape.jpg");
     text-align: center;
