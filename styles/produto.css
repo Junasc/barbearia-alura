@@ -20,7 +20,7 @@ main{
 .produtos h2{
     font-weight: bolder;
     font-size: 2em;
-    padding: 12px;
+    padding: 15px;
     text-align: center;
 }
 .produto-preco{
@@ -29,7 +29,7 @@ main{
     font-weight: bolder;
 }
 :hover.produtos{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transform: scale(1.1);
     transform: scale(1.1);
 }
