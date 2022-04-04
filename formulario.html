@@ -25,8 +25,8 @@
         </nav>
     </header>
     <main>
-        <form action="">
-            <fieldset>
+        <form action="" >
+            <fieldset id="form-pessoal">
                 <label for="nome-sobrenome">Nome e sobrenome:</label>
                 <input type="text" class="input-padrao" required>
 
@@ -41,14 +41,19 @@
             </fieldset >
     
             <fieldset id="preferencias">
-                <label for="">Como prefere nosso contato?</label>
-                <input type="radio"> Email
-                <input type="radio"> Telefone
-                <input type="radio"> Whatsapp
-                <label for=""></label>
+                <legend>Como prefere o nosso Contato?</legend>
+                <label for="radio-email">
+                    <input type="radio" id="radio-email" name="contato" value="email"> Email
+                </label>
+                <label for="radio-tel"> 
+                    <input type="radio" id="radio-tel" name="contato" value="telefone"> Telefone
+                </label>
+                <label for="radio-whats">
+                    <input type="radio" id="radio-whats" name="contato" value="whatsapp"> WhatsApp
+                </label>
     
-                <label for="">Qual horário prefere ser atendido?</label>
-                <select name="" id="">
+                <legend>Qual horario prefere ser atendido?</legend>
+                <select>
                     <option value="manhã">Manhã</option>
                     <option value="tarde">Tarde</option>
                     <option value="noite">Noite</option>
@@ -56,8 +61,8 @@
     
                 <label for=""> <input type="checkbox"> Gostaria de receber nossas novidades por email?
                 </label>
-                
-                <input type="submit" value="enviar formulário">
+
+                <input id="botao-enviar" type="submit" value="Enviar formulário">
             </fieldset>
         </form>
     </main>
