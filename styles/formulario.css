@@ -1,5 +1,19 @@
 main{
-    background-color: aqua;
-    width: auto;
-    height: 300px;
+    margin: auto;
+    width: 400px;
+    height: auto;
+    text-align: justify;
+    padding: 4% 10%;
+}
+form label {
+    display: block;
+    padding: 8px;
+    font-size: 1.5em;
+    text-align: left
+}
+
+.input-padrao{
+    width: 50%;
+    height: 20px;
+    margin: 0px 0px 20px;
 }

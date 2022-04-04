@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/formulario.css">
     <link rel="stylesheet" href="styles/header-footer.css">
     <title>Formulário</title>
 </head>
@@ -23,37 +24,43 @@
             </ul>
         </nav>
     </header>
-    <form action="">
-        <fieldset>
-            <label for="nome-sobrenome">Nome e sobrenome:</label>
-            <input type="text" required>
-            <label for="email">Email:</label>
-            <input type="email" required placeholder="seuemail@gmail.com">
-            <label for="telefone">Telefone:</label>
-            <input type="tel" placeholder="(xx) 9xxxx-xxxx">
-            <label for="mensagem">Mensagem:</label>
-            <textarea name="" id="" cols="30" rows="10"> </textarea>
-        </fieldset >
+    <main>
+        <form action="">
+            <fieldset>
+                <label for="nome-sobrenome">Nome e sobrenome:</label>
+                <input type="text" class="input-padrao" required>
 
-        <fieldset id="preferencias">
-            <label for="">Como prefere nosso contato?</label>
-            <input type="radio"> Email
-            <input type="radio"> Telefone
-            <input type="radio"> Whatsapp
-            <label for=""></label>
+                <label for="email">Email:</label>
+                <input type="email" class="input-padrao" required placeholder="seuemail@gmail.com">
 
-            <label for="">Qual horário prefere ser atendido?</label>
-            <select name="" id="">
-                <option value="manhã">Manhã</option>
-                <option value="tarde">Tarde</option>
-                <option value="noite">Noite</option>
-            </select>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" class="input-padrao" placeholder="(xx) 9xxxx-xxxx">
 
-            <label for="">Gostaria de receber nossas novidades por email?</label>
-            <input type="checkbox"> Sim
-            <input type="submit" value="enviar formulário" >
-        </fieldset>
-    </form>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="" id="" cols="30" rows="10"> </textarea>
+            </fieldset >
+    
+            <fieldset id="preferencias">
+                <label for="">Como prefere nosso contato?</label>
+                <input type="radio"> Email
+                <input type="radio"> Telefone
+                <input type="radio"> Whatsapp
+                <label for=""></label>
+    
+                <label for="">Qual horário prefere ser atendido?</label>
+                <select name="" id="">
+                    <option value="manhã">Manhã</option>
+                    <option value="tarde">Tarde</option>
+                    <option value="noite">Noite</option>
+                </select>
+    
+                <label for=""> <input type="checkbox"> Gostaria de receber nossas novidades por email?
+                </label>
+                
+                <input type="submit" value="enviar formulário">
+            </fieldset>
+        </form>
+    </main>
 
     <footer>
         <img src="midias/logo-branco.png">
