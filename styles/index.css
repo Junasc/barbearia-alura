@@ -6,23 +6,29 @@ h2 {
     font-size: 1.5em;
     font-weight: bolder;
     padding-bottom: 20px;
+    
 }
-#div-sobre{
-    background-color: rgb(229, 229, 229);
+.img-utensilio {
+    width: 150px;
+    float: left;
+    margin: 0px 12px;
+}
+#sec-sobre{
+    width: 70%;
+    margin: auto;
     text-align: center;
-    padding: 15px;
-    margin: 20px;
-    border-radius: 10px;
+    padding: 25px;
     font-size: 1.2em;
 }
-#div-sobre q {
+#sec-sobre q {
     color: red;
 }
 #banner-beneficio{
-    width: 50%;
+    max-width: 50%;
     display: inline-block;
 }
 #beneficios-h3 {
+    clear: left;
     font-size: 2em;
     text-align: center;
     padding-bottom: 3%;
