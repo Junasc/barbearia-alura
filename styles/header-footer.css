@@ -37,6 +37,7 @@ nav a:hover{
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient( aliceblue 50% , grey);
 }
 footer{
     background: url("/midias/textura-rodape.jpg");
