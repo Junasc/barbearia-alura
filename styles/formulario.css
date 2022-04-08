@@ -47,6 +47,17 @@ textarea{
     border-radius: 5px;
     margin: 15px;
 }
+.tabela{
+    background-color: azure;
+    text-align: center;
+    margin-top: 50px;
+}
+table , tr , td {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
 #botao-enviar:hover {
     background-color: rgb(75, 75, 75);
     transition: 0.5s;
