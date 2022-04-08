@@ -34,8 +34,14 @@ h2 {
     margin: auto;
 }
 #banner-beneficio{
-    max-width: 50%;
+    max-width: 55%;
     display: inline-block;
+    box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.493);
+    opacity: 0.8;
+}
+#banner-beneficio:hover {
+    opacity: 1;
+    transition: 0.4s;
 }
 #beneficios-h3 {
     clear: left;
@@ -45,16 +51,23 @@ h2 {
     font-weight: bold;
 }
 #div-beneficios{
-    display: flex;
-    flex-direction: row;
-    font-size: 2em;
-    height: 350px;
-    width: 100%;
-    margin-bottom: 10px;
+    width: 640px;
+    margin: auto;
+    padding: 5%;
 }
 #beneficios-lista{
-    padding: 10%;
-    list-style: circle;
+    width: 40%;
+    font-size: 18px;
+    font-weight: bolder;
+    display: inline-block;
+    vertical-align: top;
+}
+.itens-beneficios::before{
+    content: "★";
+    line-height: 1.8em;
+}
+.video{
+    margin: 8%;
 }
 footer{
     background: url("/midias/textura-rodape.jpg");
