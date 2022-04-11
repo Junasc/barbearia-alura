@@ -1,5 +1,5 @@
 main{
-    padding: 3%;
+    padding: 2%;
 }
 #ul-produtos{
     text-align: center;
@@ -20,12 +20,12 @@ main{
 .produtos h2{
     font-weight: bolder;
     font-size: 2em;
-    padding: 15px;
     text-align: center;
+    margin: 0%;
 }
 .produto-preco{
-    padding: 10px;
-    font-size: 1.9em;
+    padding: 5px;
+    font-size: 1.2em;
     font-weight: bolder;
 }
 :hover.produtos{

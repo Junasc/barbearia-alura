@@ -17,12 +17,13 @@ main{
     display: block;
 }
 .input-padrao{
-    width: 60%;
-    height: 25px;
+    width: 70%;
+    height: 30px;
     margin-bottom: 20px;
     border: none;
     box-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
+
 .input-padrao:focus{
     background-color: gainsboro;
 }
@@ -65,5 +66,4 @@ table , tr , td {
 }
 #botao-enviar:active{
     background-color: black;
-    
 }

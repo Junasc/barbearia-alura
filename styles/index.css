@@ -34,7 +34,7 @@ h2 {
     margin: auto;
 }
 #banner-beneficio{
-    max-width: 55%;
+    width: calc(50% - 15px);
     display: inline-block;
     box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.493);
     opacity: 0.8;
@@ -77,4 +77,11 @@ footer{
 .copyright{
     color: white;
     margin-top: 10px;
+}
+
+@media (max-width: 516px){
+    #div-beneficios, #beneficios-lista , .mapa , .mapa-conteudo, .video {
+        width: auto;
+        margin: 0;
+    }
 }
