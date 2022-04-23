@@ -21,6 +21,7 @@ Site fictício de uma barbearia.
 
 Confira em ➡️ https://junasc.github.io/barbearia-alura/
 <p align="center">
+  <img src= "https://github.com/Junasc/barbearia-alura/blob/master/page-barbearia-alura.png">
   
 </p>
 
